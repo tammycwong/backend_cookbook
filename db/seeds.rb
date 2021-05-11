@@ -19,16 +19,15 @@ puts "Seeding recipes..."
 recipes = [
     {
         name:"Cannaoil",
-        image: "https://leafly-cms-production.s3-us-west-2.amazonaws.com/legacy/content/recipe-how-to-make-cannabis-c[…]e_6896388410.jpg?auto=format,compress&w=1100",
         ingredient: "1 cup of ground cannabis flower (or less for milder potency),
         -1 cup of cooking oil of your choice",
         direction: "1. Grind the cannabis. You can include the entire plant, just the flower, a little bit of both—this is all a matter of preference. Just keep in mind that anything small enough to fit through the strainer will end up in your finished product, so again, do not grind your cannabis into a fine powder.,
         2.Combine oil and cannabis in your double-boiler, slow cooker, or saucepan, and heat on low or warm for a few hours. This allows for decarboxylation (activation of THC) without scorching (which destroys the active ingredients). In all cases, a small amount of water can be added to the mixture to help avoid burning, and the temperature of the oil should never exceed 245°F,
-        3.Strain and store the oil. Do not squeeze the cheesecloth; this will simply add more chlorophyll to your oil. All remaining plant material can be discarded or used in other dishes if desired. The oil’s shelf life is at least two months, and can be extended with refrigeration."
+        3.Strain and store the oil. Do not squeeze the cheesecloth; this will simply add more chlorophyll to your oil. All remaining plant material can be discarded or used in other dishes if desired. The oil’s shelf life is at least two months, and can be extended with refrigeration.",
+        image: "https://images.hytiva.com/Cannabis-Butter-Cookies-With-Cannaoil.jpg"
     },
     {
         name: "CannaButter",
-        image: "https://leafly-cms-production.imgix.net/wp-content/uploads/2014/03/29200228/recipe-how-to-ma[…]asic-cannabutter.jpg?auto=compress,format&w=740&dpr=2",
         ingredient: "1 cup of butter,
         -1 cup (7-10 grams) of ground cannabis, decarboxylated",
         direction: "1.Decarb the cannabis. Preheat your oven to 245ºF. Place cannabis buds on a non-stick, oven-safe tray. Cover the tray with parchment paper to prevent sticking. Insert the tray into the oven and set a timer for 30-40 minutes. Older, drier cannabis may require less time. (Tip: you can also set your oven to 300ºF and heat for 10 to 18 minutes, although low-and-slow is the recommended approach when decarbing to better preserve the cannabinoids.) Every 10 minutes, gently mix the buds with a light shake of the tray to expose the surface area of the buds equally,
@@ -39,10 +38,10 @@ recipes = [
         6.Strain the cannabutter. Set a funnel on top of a jar and line it with cheesecloth. Once the butter has cooled off, pour it over the cheesecloth funnel and allow it to strain freely. (Tip: Squeezing the cheesecloth may push more bad-tasting plant material through).,
         7. Refrigerate the jar of butter. If excess water forms at the bottom of the jar, you can remove the solid butter with a knife and drain the water out. (The butter will need to refrigerate for about an hour before removing the water.),
         8.Dose carefully. Refer to dosing information below before adding your butter to any snacks, dishes, or desserts.",
+        image: "https://leafly-cms-production.imgix.net/wp-content/uploads/2014/03/29200228/recipe-how-to-ma[…]asic-cannabutter.jpg"
     },
     {
         name: "Chicken Parm and Pasta",
-        image: "https://leafly-cms-production.imgix.net/wp-content/uploads/2017/02/07120303/chicken-parm.jpg?auto=compress,format&w=740&dpr=2",
         ingredient: "2 chicken breasts, thinly sliced,
         -1/2 cup salt,
         -1/2 cup sugar,
@@ -67,11 +66,11 @@ recipes = [
         6.Place the chicken into the hot oil and bring to a golden brown on both sides (this will not cook the chicken the whole way through, you’re just looking for a golden crust). When both sides are golden brown, remove the chicken from the oil and place on paper towels.,
         7.Spread ¼ inch of marinara sauce at the bottom of a 9” x 13” rectangular pan. Place chicken breasts onto the sauce and cover with more sauce, then cover each chicken breast with parmesan cheese.,
         8.Cover with aluminum foil and bake for 25 minutes or until the internal temperature reaches 165˚F. While the chicken is baking, cook the pasta until it’s al dente, strain, and set aside,
-        9.Remove chicken from oven and serve immediately over pasta."
+        9.Remove chicken from oven and serve immediately over pasta.",
+        image: "https://leafly-cms-production.imgix.net/wp-content/uploads/2017/02/07120303/chicken-parm.jpg?auto=compress,format&w=740&dpr=2"
     },
     {
         name:"Rosemary and Garlic Pork Chops",
-        image: "https://eatyourcannabis.com/wp-content/uploads/2019/01/AdobeStock_105072179.jpg",
         ingredient: "4 pork chops,
         -1/2 cup salt,
         -1/2 cup black pepper,
@@ -82,11 +81,11 @@ recipes = [
         "1.Preheat oven to 375°. Season pork chops with salt and pepper.,
         2. In a small bowl mix together CannaButter, rosemary, and garlic. Set aside.,
         3. In an oven-safe skillet over medium heat, heat CannaOil then add pork chops. Sear until golden, 4 minutes, flip and cook 4 minutes more. Brush pork chops generously with garlic butter.,
-        4. Place skillet in oven and cook until cooked through 10-12 minutes. Serve with more garlic butter."
+        4. Place skillet in oven and cook until cooked through 10-12 minutes. Serve with more garlic butter.",
+        image: "https://eatyourcannabis.com/wp-content/uploads/2019/01/AdobeStock_105072179.jpg"
     },
     {
         name:"Zucchini Lasagna",
-        image: "https://eatyourcannabis.com/wp-content/uploads/2019/01/AdobeStock_81681782.jpg",
         ingredient: "2 tbsp CannaOil,
         -3 cups julienne-cut zucchini,
         -1 1/2 tbsp chopped fresh thyme,
@@ -103,24 +102,23 @@ recipes = [
         2. Heat a large skillet over medium-high heat. Add CannaOil to pan; swirl to coat. Add zucchini, squash, thyme, and garlic; sauté 5 minutes. Stir in 1/2 teaspoon salt and 1/4 teaspoon pepper. Remove zucchini mixture from pan, and cool completely.,
         3.Combine remaining 1/4 teaspoon salt, 1/4 teaspoon pepper, ricotta, mozzarella water, and mozzarella in a food processor. Pulse until smooth. Combine 1/2 cup ricotta mixture and 1/2 cup Parmesan.,
         4.Arrange 2 noodles in an 8-inch square glass baking dish coated with cooking spray; trim to fit if needed. Top with half of the zucchini mixture and half of the ricotta mixture. Repeat layers, ending with noodles. Top with the ricotta-Parmesan mixture. Cover dish with foil. Bake lasagna at 375° for 30 minutes; uncover. Bake, uncovered, an additional 15 minutes.,
-        5.Turn broiler to high. Sprinkle lasagna with remaining 2 tablespoons Parmesan cheese. Broil 2 minutes or until lightly browned. Let stand for 5 minutes. Cut into 6 slices."
+        5.Turn broiler to high. Sprinkle lasagna with remaining 2 tablespoons Parmesan cheese. Broil 2 minutes or until lightly browned. Let stand for 5 minutes. Cut into 6 slices.",
+        image: "https://eatyourcannabis.com/wp-content/uploads/2019/01/AdobeStock_81681782.jpg"
     },
     {   name: "Grilled Cheese",
-        image: "https://www.thecannaschool.ca/wp-content/uploads/2020/01/Canva-Grilled-cheese-1536x1024.jpg",
         ingredient: "-2 slices bread, -1 slice cheddar cheese, -2 tsp cannabis butter, -2 tsp butter",
         direction: 
-        "1. Evenly spread the 2 tsp of butter on one side of both pieces of bread. Next, spread the cannabis butter on the other side of the bread. 2. Place the slice of cheddar cheese on the canna-butter side of the bread. Put the two slices of bread together with the canna-butter side in the middle. 3. On medium heat, fry the grilled cheese until the cheese has melted and both sides are golden brown, about 3 minutes per side."
+        "1. Evenly spread the 2 tsp of butter on one side of both pieces of bread. Next, spread the cannabis butter on the other side of the bread. 2. Place the slice of cheddar cheese on the canna-butter side of the bread. Put the two slices of bread together with the canna-butter side in the middle. 3. On medium heat, fry the grilled cheese until the cheese has melted and both sides are golden brown, about 3 minutes per side.",
+        image: "https://www.thecannaschool.ca/wp-content/uploads/2020/01/Canva-Grilled-cheese-1536x1024.jpg"
     },
     {
         name: "Churros",
-        image: "
-        https://www.thecannaschool.ca/wp-content/uploads/2019/12/Canva-churros-with-sugar-2048x1356.jpg",
         ingredient: "-1 cup all-purpose flour, -1/2 tsp baking powder, -1/2 tsp salt, -2 tbsp sugar, -1/4 cup cannabis coconut oil, -1 cup water, -1 quart oil, -1/2 tsp vanilla extract",
-        direction:"1. In a large mixing bowl, mix flour, baking powder, salt, two tablespoons of sugar and set aside. 2. Add the cannabis coconut oil along with 1 cup of water to a pan on the stove over medium heat. Whisk constantly. 3. Once the water starts to boil, immediately pour it into the flour, baking powder, salt, and sugar bowl. Blend this with an electric mixer until it's consistent. Add the vanilla extract and keep blending until the dough becomes smooth. Transfer the churro dough to a piping bag. 4. Pour the quart of oil into a high-sided skillet and place it on the stove over medium-high heat until it reaches 375°F. Squeeze out a 6-inch strip of churro dough directly into the oil and fry for about 2 minutes until the churros are golden brown. 5. Once the churros are cooked, remove them from the oil using tongs onto a plate lined with paper towels."
+        direction:"1. In a large mixing bowl, mix flour, baking powder, salt, two tablespoons of sugar and set aside. 2. Add the cannabis coconut oil along with 1 cup of water to a pan on the stove over medium heat. Whisk constantly. 3. Once the water starts to boil, immediately pour it into the flour, baking powder, salt, and sugar bowl. Blend this with an electric mixer until it's consistent. Add the vanilla extract and keep blending until the dough becomes smooth. Transfer the churro dough to a piping bag. 4. Pour the quart of oil into a high-sided skillet and place it on the stove over medium-high heat until it reaches 375°F. Squeeze out a 6-inch strip of churro dough directly into the oil and fry for about 2 minutes until the churros are golden brown. 5. Once the churros are cooked, remove them from the oil using tongs onto a plate lined with paper towels.",
+        image: "https://www.thecannaschool.ca/wp-content/uploads/2019/12/Canva-churros-with-sugar-2048x1356.jpg"
     },
     {
         name: "Mini Mary Blueberry Pies",
-        image: "https://www.thesocialweed.com/wp-content/uploads/2019/05/210-Pies.jpg",
         ingredient:"- 1/2 recipe Cheri’s medicated Pie Crust, see notes above, for crust bottoms
         -1 refrigerated pie crust dough,
         -1 nonmedicated homemade or refrigerated dough for crust tops, see notes above,
@@ -142,11 +140,11 @@ recipes = [
         7. Top the pies with a second crust, see notes above for ideas and instructions.
         8. Bake for about 20-25 minutes or until crusts are golden brown.
         9. Let cool completely before removing from the Mason Jar “pie pans” by carefully pushing up from the bottom to remove the ring, then using a knife to slide the pie off the metal disc and onto a plate.
-        "
+        ",
+        image: "https://www.thesocialweed.com/wp-content/uploads/2019/05/210-Pies.jpg"
     },
     {
         name:"Chocolate Chip Cookies",
-        image: "https://cannabisspatula.com/wp-content/uploads/2019/11/DSC7476.jpg",
         ingredient:"-2 1/4 cups all-purpose flour (use the gluten-free flour of your choice to make gluten-free cookies)
         -1 teaspoon baking soda
         -1 teaspoon salt
@@ -169,11 +167,12 @@ recipes = [
         8. Drop by rounded tablespoon onto ungreased baking sheets.
         9. Bake for 9 to 11 minutes or until golden brown.
         10. Cool on baking sheets for 2 minutes; remove to wire racks to cool completely.
-        "},
+        ",
+        image: "https://cannabisspatula.com/wp-content/uploads/2019/11/DSC7476.jpg",
+    },
 
     {
         name:"Medicated Mac & Cheese",
-        image: "https://recipes.laurieandmaryjane.com/wp-content/uploads/2018/04/MacCheese.jpg",
         ingredient: "-1/2 lb elbow macaroni
         -1 tbsp vegetable oil
         -1 tsp salt
@@ -196,7 +195,8 @@ recipes = [
         4. Add the cheeses broccoli, tomato, salt, pepper and nutmeg. Add the cooked macaroni and stir well. Pour into 6-8 greased ramekins or a 2 quart greased casserole dish.
         5. Melt the remaining 2 tbsp of butter and combine with the fresh breadcrumbs. Add the cheese and mix. Sprinkle on the top of the ramekins or casserole.
         6. Bake for 25-30 minutes, or until the macaroni is browned on the top.
-        "
+        ",
+        image: "https://recipes.laurieandmaryjane.com/wp-content/uploads/2018/04/MacCheese.jpg"
     },
     {
         name:"Tuna Salad",
@@ -214,7 +214,8 @@ recipes = [
         3. Add the Cannabis oil, mayonnaise, mustard and season with pepper, to taste. 
         4. Stir to combine. 
         5. Add lemon juice, to taste, if using.
-        6. Serve."
+        6. Serve.",
+        image: "https://www.cannadish.net/wp-content/uploads/2019/10/Weed-infused-tuna-salad-with-toast.jpg"
     },
 
     {
@@ -235,12 +236,12 @@ recipes = [
         4. After that, cover up that dish and place it in the fridge for a solid 8 hours.,
         5.  make sure to have your oven fully preheated to 350°.,
         6.  throw in your baking dish (uncovered), and allow the whole batch to cook for 45 minutes or so.,
-        7.At that point, pull those bad boys out of the oven, and toss them on a plate with powered sugar."
+        7.At that point, pull those bad boys out of the oven, and toss them on a plate with powered sugar.",
+        image: "https://lacannabisreviews.com/wp-content/uploads/2019/12/Take-Breakfast-To-The-Next-Level-With-This-THC-French-Toast.jpg"
     },
 
     { 
         name: "Belgian Waffle",
-        image: "https://www.cannadish.net/wp-content/uploads/2019/10/Cannabis-Waffles-recipe.jpeg",
         ingredient: "1/4 cup Cannabis Butter,
         -2 cups all-purpose flour,
         -3/4 cup sugar,
@@ -253,12 +254,12 @@ recipes = [
         direction: "1.In a bowl, combine flour, sugar and baking powder.,
         2. In another bowl, lightly beat egg yolks. Add milk, butter, cannabis butter and vanilla; mix well. Stir into dry ingredients just until combined.,
         3. Beat egg whites until stiff peaks form; fold into batter.,
-        4. Bake in a preheated waffle iron according to manufacturer’s directions until golden brown. Serve with strawberries or syrup."
+        4. Bake in a preheated waffle iron according to manufacturer’s directions until golden brown. Serve with strawberries or syrup.",
+        image: "https://www.cannadish.net/wp-content/uploads/2019/10/Cannabis-Waffles-recipe.jpeg"
     },
 
     {
         name: "Egg & Bacon Cups",
-        image: "https://www.cannadish.net/wp-content/uploads/2020/12/cannabis-bacon-and-egg-cups-scaled-e1608575414502.jpg",
         ingredient: "12 slices bacon,
         -10 large eggs,
         -3 tbsp Cannabutter,
@@ -276,7 +277,8 @@ recipes = [
         4. Evenly pour your mixture into the 12 muffin tin cups.,
         5.Slice up your other jalapeno and place little slices on top of each cup.,
         6.If you have any left over cheese or you want to grate some more, feel free to sprinkle on top of every cup as well.,
-        7.Pop it into the overn for 12-15 minutes – checking it often. When the sides are golden brown, and the tops are completely melted and bubbling, everything is ready and done!"
+        7.Pop it into the overn for 12-15 minutes – checking it often. When the sides are golden brown, and the tops are completely melted and bubbling, everything is ready and done!",
+        image: "https://www.cannadish.net/wp-content/uploads/2020/12/cannabis-bacon-and-egg-cups-scaled-e1608575414502.jpg"
     }
 ]
 
