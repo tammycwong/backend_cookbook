@@ -1,4 +1,4 @@
 class Review < ActiveRecord::Base
-    belongs_to :users
-    belongs_to :reviews
+    belongs_to :user
+    belongs_to :recipe
 end
