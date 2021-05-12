@@ -49,25 +49,10 @@ puts "Seeding recipes..."
 recipes = [
     {
         name:"Cannaoil",
-        ingredient: "1 cup of ground cannabis flower (or less for milder potency),
-        -1 cup of cooking oil of your choice",
-        direction: "1. Grind the cannabis. You can include the entire plant, just the flower, a little bit of both—this is all a matter of preference. Just keep in mind that anything small enough to fit through the strainer will end up in your finished product, so again, do not grind your cannabis into a fine powder.,
-        2.Combine oil and cannabis in your double-boiler, slow cooker, or saucepan, and heat on low or warm for a few hours. This allows for decarboxylation (activation of THC) without scorching (which destroys the active ingredients). In all cases, a small amount of water can be added to the mixture to help avoid burning, and the temperature of the oil should never exceed 245°F,
-        3.Strain and store the oil. Do not squeeze the cheesecloth; this will simply add more chlorophyll to your oil. All remaining plant material can be discarded or used in other dishes if desired. The oil’s shelf life is at least two months, and can be extended with refrigeration.",
         image: "https://images.hytiva.com/Cannabis-Butter-Cookies-With-Cannaoil.jpg"
     },
     {
         name: "CannaButter",
-        ingredient: "1 cup of butter,
-        -1 cup (7-10 grams) of ground cannabis, decarboxylated",
-        direction: "1.Decarb the cannabis. Preheat your oven to 245ºF. Place cannabis buds on a non-stick, oven-safe tray. Cover the tray with parchment paper to prevent sticking. Insert the tray into the oven and set a timer for 30-40 minutes. Older, drier cannabis may require less time. (Tip: you can also set your oven to 300ºF and heat for 10 to 18 minutes, although low-and-slow is the recommended approach when decarbing to better preserve the cannabinoids.) Every 10 minutes, gently mix the buds with a light shake of the tray to expose the surface area of the buds equally,
-        2.Grind. Grind the decarboxylated cannabis coarsely with a hand grinder.,
-        3. Melt the butter. Add 1 cup of water and 1 cup of butter into a stock pot or saucepan. Simmer on low and let the butter melt. Adding water helps to regulate the temperature and prevents the butter from scorching,
-        4.Add the cannabis. As the butter begins to melt, add in your coarsely ground cannabis product.,
-        5. Simmer. Maintain low heat (ideally above 160ºF but never exceeding 200ºF) and let the mixture simmer for 2 to 3 hours, stirring occasionally. The mixture should never come to a full boil.,
-        6.Strain the cannabutter. Set a funnel on top of a jar and line it with cheesecloth. Once the butter has cooled off, pour it over the cheesecloth funnel and allow it to strain freely. (Tip: Squeezing the cheesecloth may push more bad-tasting plant material through).,
-        7. Refrigerate the jar of butter. If excess water forms at the bottom of the jar, you can remove the solid butter with a knife and drain the water out. (The butter will need to refrigerate for about an hour before removing the water.),
-        8.Dose carefully. Refer to dosing information below before adding your butter to any snacks, dishes, or desserts.",
         image: "https://leafly-cms-production.imgix.net/wp-content/uploads/2014/03/29200228/recipe-how-to-ma[…]asic-cannabutter.jpg"
     },
     {
@@ -323,13 +308,19 @@ reviews = [
         user_id: User.first.id,
         recipe_id: Recipe.first.id,
         rating: 3,
-        comment:"tastes great."
+        comment:"tastes great.",
+        ingredient: "1 cup of ground cannabis flower (or less for milder potency),
+        -1 cup of cooking oil of your choice",
+        direction: "1. Grind the cannabis. You can include the entire plant, just the flower, a little bit of both—this is all a matter of preference. Just keep in mind that anything small enough to fit through the strainer will end up in your finished product, so again, do not grind your cannabis into a fine powder.,
+        2.Combine oil and cannabis in your double-boiler, slow cooker, or saucepan, and heat on low or warm for a few hours. This allows for decarboxylation (activation of THC) without scorching (which destroys the active ingredients). In all cases, a small amount of water can be added to the mixture to help avoid burning, and the temperature of the oil should never exceed 245°F,
+        3.Strain and store the oil. Do not squeeze the cheesecloth; this will simply add more chlorophyll to your oil. All remaining plant material can be discarded or used in other dishes if desired. The oil’s shelf life is at least two months, and can be extended with refrigeration.",
     },
     {
         user_id: User.second.id,
         recipe_id:Recipe.second.id,
         rating: 4,
         comment:"love it."
+        
     }
 ]
 

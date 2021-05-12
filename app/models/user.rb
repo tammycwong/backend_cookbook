@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-    has_many :recipes
-    has_many :reviews, through: :recipes
+    has_many :reviews
+    has_many :recipes, through: :reviews
 end
