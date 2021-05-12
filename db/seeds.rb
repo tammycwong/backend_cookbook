@@ -5,15 +5,45 @@ Recipe.destroy_all
 Review.destroy_all
 
 puts "Seeding users..."
+users =[
+    {
+        age: 24,
+        username: "antsinmyhoney"
+    },
+    {
+        age: 32,
+        username: "BigPaulGrahamJr"
 
-User.create(age: 24, username: "antsinmyhoney")
-User.create(age: 32, username: "BigPaulGrahamJr")
-User.create(age: 69, username: "DirtyMike")
-User.create(age: 40, username: "ZeePinkFlamingo")
-User.create(age: 27, username: "jbrundagejr")
-User.create(age: 19, username: "isa_w99")
-User.create(age: 56, username: "tiz4toiletbowl")
-User.create(age: 18, username: "DiddyKong26")
+    },
+    {
+        age: 69,
+        username: "DirtyMike"
+    },
+    {
+        age: 40,
+        username: "ZeePinkFlamingo"
+    },
+    {
+        age: 27,
+        username: "jbrundagejr"
+    },
+    {
+        age: 19,
+        username: "isa_w99"
+    },
+    {
+        age: 56,
+        username: "tiz4toiletbowl" 
+    },
+    {
+        age: 18,
+        username: "DiddyKong26"
+    }
+]
+users.each do |us_hash|
+    User.create(us_hash)
+end
+
 
 puts "Seeding recipes..."
 recipes = [
@@ -287,5 +317,22 @@ recipes.each do |r_hash|
 end
 puts "Seeding reviews..."
 
-Review.create(user_id: User.first.id, recipe_id: Recipe.first.id, rating: 3, comment:"tastes great.")
-Review.create(user_id: User.second.id, recipe_id:Recipe.second.id, rating: 4, comment:"love it.")
+
+reviews = [
+    {
+        user_id: User.first.id,
+        recipe_id: Recipe.first.id,
+        rating: 3,
+        comment:"tastes great."
+    },
+    {
+        user_id: User.second.id,
+        recipe_id:Recipe.second.id,
+        rating: 4,
+        comment:"love it."
+    }
+]
+
+reviews.each do |re_hash|
+    Review.create(re_hash)
+end
