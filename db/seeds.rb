@@ -348,6 +348,12 @@ reviews = [
         recipe_id:Recipe.all[7].id,
         rating: 5,
         comment:"made this for thanksgiving potluck with friends and it was a hit"
+    },
+    {
+        user_id: User.all[5].id,
+        recipe_id:Recipe.all[11].id,
+        rating: 2,
+        comment:"needs more "
     }
 ]
 

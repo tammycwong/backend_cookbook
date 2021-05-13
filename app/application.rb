@@ -13,22 +13,29 @@ class Application
         include: :user
       }}})
 
-      return [200, { 'Content-Type' => 'application/json' }, [ the_recipes.to_json ]]
+      return [200, { 'Content-Type' => 'application/json' }, [ the_recipes_json ]]
 
     elsif req.path.match("/recipes/*") && req.get?
       id = req.path.split("/recipes/").last
       recipe = Recipe.find(id)
-      the_recipes_json = Recipe.all.to_json({include: {reviews: {
+      the_recipes_json = recipe.to_json({include: {reviews: {
         include: :user
       }}})
 
-      return [200, { 'Content-Type' => 'application/json' }, [ the_recipes.to_json ]]
+      return [200, { 'Content-Type' => 'application/json' }, [ the_recipes_json ]]
 
     elsif req.path == "/recipes" && req.post?
       hash = JSON.parse(req.body.read)
       # hash: {"name": "Bulbasaur", "image": "", likes: 0}
       new_recipe = Recipe.create(hash)
       return [201, { 'Content-Type' => 'application/json' }, [ new_recipe.to_json ]]
+
+    elsif req.path.match(/recipes/) && req.delete?
+      id = req.path.split("/recipes/").last
+      # Toy.destroy(id)
+      recipe = Recipe.find(id)
+      recipe.destroy
+      return [200, { 'Content-Type' => 'application/json' }, [ recipe.to_json ]]
     
     # elsif req.path.match(/recipes/) &&  req.get?
     #   id = req.path.split("/recipes/").last
