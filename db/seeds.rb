@@ -48,7 +48,7 @@ end
 puts "Seeding recipes..."
 recipes = [
     {
-        name:"Cannaoil",
+        name:"CannaOil",
         ingredient: "1 cup of ground cannabis flower (or less for milder potency),
         -1 cup of cooking oil of your choice",
         direction: "1. Grind the cannabis. You can include the entire plant, just the flower, a little bit of both—this is all a matter of preference. Just keep in mind that anything small enough to fit through the strainer will end up in your finished product, so again, do not grind your cannabis into a fine powder.,
